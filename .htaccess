@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Redirect .html to .php
+RewriteCond %{THE_REQUEST} \s/+(.+)\.html[\s?] [NC]
+RewriteRule ^ /datasphere-website/%1.php [R=301,L]
+
+# If the requested file doesn't exist, try adding .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Set index.php as the directory index
+DirectoryIndex index.php

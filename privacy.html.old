@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | DataSphere Digital Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <!-- Navigation (Simplified) -->
+    <nav class="main-nav" style="background: rgba(10, 10, 15, 0.9); backdrop-filter: blur(10px);">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: var(--space-md) 0;">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="brand-name">DataSphere</span>
+                </div>
+            </a>
+            <a href="index.html" class="btn btn-secondary btn-sm">Back to Home</a>
+        </div>
+    </nav>
+
+    <header class="page-header" style="padding: 120px 0 60px; background: var(--dark-800); text-align: center;">
+        <div class="container">
+            <h1 class="gradient-text">Privacy Policy</h1>
+            <p style="color: var(--gray-400); max-width: 700px; margin: var(--space-md) auto;">Last Updated: May 2026</p>
+        </div>
+    </header>
+
+    <main class="legal-content" style="padding: 80px 0; background: var(--dark-900);">
+        <div class="container" style="max-width: 900px; line-height: 1.8; color: var(--gray-300);">
+            <div class="dashboard-card" style="padding: var(--space-2xl);">
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-shield-alt" style="color: var(--primary-blue-light);"></i> 1. Introduction
+                    </h2>
+                    <p>At DataSphere Digital Solutions, we respect your privacy and are committed to protecting it through our compliance with this policy. This policy describes the types of information we may collect from you or that you may provide when you visit the website <strong>datasphere.co.tz</strong> and our practices for collecting, using, maintaining, protecting, and disclosing that information.</p>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-database" style="color: var(--primary-blue-light);"></i> 2. Information We Collect
+                    </h2>
+                    <p>We collect several types of information from and about users of our Website, including:</p>
+                    <ul style="margin-left: var(--space-xl); margin-top: var(--space-md); list-style-type: circle;">
+                        <li>Personal identification information (Name, email address, phone number, etc.)</li>
+                        <li>Business information (Company name, website, physical address)</li>
+                        <li>Usage details, IP addresses, and information collected through cookies.</li>
+                        <li>Project-related files and documentation uploaded to the client portal.</li>
+                    </ul>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-user-check" style="color: var(--primary-blue-light);"></i> 3. How We Use Your Information
+                    </h2>
+                    <p>We use information that we collect about you or that you provide to us:</p>
+                    <ul style="margin-left: var(--space-xl); margin-top: var(--space-md); list-style-type: circle;">
+                        <li>To provide and maintain our services to you.</li>
+                        <li>To manage your client portal account and process service bookings.</li>
+                        <li>To provide you with support and respond to your inquiries.</li>
+                        <li>To notify you about changes to our website or any products or services we offer.</li>
+                    </ul>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-lock" style="color: var(--primary-blue-light);"></i> 4. Data Security
+                    </h2>
+                    <p>We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. All information you provide to us is stored on our secure servers behind firewalls. Any payment transactions will be encrypted using SSL technology.</p>
+                </section>
+
+                <section>
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-envelope" style="color: var(--primary-blue-light);"></i> 5. Contact Information
+                    </h2>
+                    <p>To ask questions or comment about this privacy policy and our privacy practices, contact us at:</p>
+                    <p style="margin-top: var(--space-md); color: var(--primary-blue-light); font-weight: 600;">privacy@datasphere.co.tz</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Simplified) -->
+    <footer style="padding: 40px 0; background: var(--dark-800); border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+        <p style="color: var(--gray-500); font-size: 0.875rem;">&copy; 2026 DataSphere Digital Solutions. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

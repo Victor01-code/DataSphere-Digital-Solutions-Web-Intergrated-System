@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DataSphere Blog - Digital insights, tech tips, success stories, and industry trends to help your business thrive.">
+    <meta name="keywords" content="digital marketing blog, tech tips, business insights, Tanzania tech">
+
+    <title>Blog & Insights | DataSphere Digital Solutions</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="DataSphere Logo" class="logo-img">
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="login.html" class="btn btn-secondary btn-sm">
+                    <i class="fas fa-user"></i> Client Portal
+                </a>
+                <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+            </div>
+
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Blog</span>
+            </div>
+            <h1>Blog & Insights</h1>
+            <p>Expert articles, digital trends, and tips to help your business grow.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section">
+        <div class="container">
+            <div class="blog-grid-premium">
+                <!-- Blog Post 1 -->
+                <article class="blog-card-premium">
+                    <div class="blog-visual-premium">
+                        <img src="assets/images/service1.png" alt="AI Transformation">
+                        <span class="blog-tag-premium">Technology</span>
+                    </div>
+                    <div class="blog-body-premium">
+                        <div class="blog-meta-premium">
+                            <span><i class="far fa-calendar"></i> May 12, 2026</span>
+                            <span><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h3>How AI is Scaling SMEs in East Africa</h3>
+                        <p>Exploring the digital shift in regional markets and how modular AI systems are driving growth.</p>
+                        <a href="#" class="read-more-link">Full Article <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card-premium">
+                    <div class="blog-visual-premium">
+                        <img src="assets/images/service3.png" alt="Mobile-First">
+                        <span class="blog-tag-premium">Development</span>
+                    </div>
+                    <div class="blog-body-premium">
+                        <div class="blog-meta-premium">
+                            <span><i class="far fa-calendar"></i> May 08, 2026</span>
+                            <span><i class="far fa-clock"></i> 4 min read</span>
+                        </div>
+                        <h3>The Mobile-First Mandate for 2026</h3>
+                        <p>Why responsive design is no longer enough and why performance-first architecture wins.</p>
+                        <a href="#" class="read-more-link">Full Article <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card-premium">
+                    <div class="blog-visual-premium">
+                        <img src="assets/images/service2.png" alt="Branding">
+                        <span class="blog-tag-premium">Branding</span>
+                    </div>
+                    <div class="blog-body-premium">
+                        <div class="blog-meta-premium">
+                            <span><i class="far fa-calendar"></i> May 01, 2026</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3>Emotionally Resonant Visual Identities</h3>
+                        <p>Moving beyond logos: building brand systems that connect with cross-border audiences.</p>
+                        <a href="#" class="read-more-link">Full Article <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <style>
+                .blog-grid-premium {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: var(--space-2xl);
+                    margin-top: var(--space-2xl);
+                }
+
+                .blog-card-premium {
+                    background: rgba(255, 255, 255, 0.02);
+                    border: 1px solid rgba(255, 255, 255, 0.05);
+                    border-radius: var(--radius-2xl);
+                    overflow: hidden;
+                    transition: transform 0.4s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+                }
+
+                .blog-card-premium:hover {
+                    transform: translateY(-10px);
+                    border-color: rgba(0, 102, 255, 0.2);
+                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+                }
+
+                .blog-visual-premium {
+                    position: relative;
+                    height: 220px;
+                    overflow: hidden;
+                }
+
+                .blog-visual-premium img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform 0.6s ease;
+                }
+
+                .blog-card-premium:hover .blog-visual-premium img {
+                    transform: scale(1.1);
+                }
+
+                .blog-tag-premium {
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                    background: var(--gradient-primary);
+                    color: white;
+                    padding: 4px 12px;
+                    border-radius: 20px;
+                    font-size: 0.7rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                .blog-body-premium {
+                    padding: var(--space-xl);
+                }
+
+                .blog-meta-premium {
+                    display: flex;
+                    gap: var(--space-md);
+                    font-size: 0.8rem;
+                    color: var(--gray-400);
+                    margin-bottom: var(--space-md);
+                }
+
+                .blog-body-premium h3 {
+                    font-size: 1.25rem;
+                    margin-bottom: var(--space-sm);
+                    color: white;
+                    line-height: 1.4;
+                }
+
+                .blog-body-premium p {
+                    font-size: 0.95rem;
+                    color: var(--gray-400);
+                    margin-bottom: var(--space-xl);
+                    line-height: 1.6;
+                }
+
+                .read-more-link {
+                    color: var(--primary-blue-light);
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                    text-decoration: none;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    transition: gap 0.3s ease;
+                }
+
+                .read-more-link:hover {
+                    gap: 12px;
+                }
+
+                @media (max-width: 1024px) {
+                    .blog-grid-premium {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+
+                @media (max-width: 640px) {
+                    .blog-grid-premium {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+
+            <!-- Pagination -->
+            <div class="pagination"
+                style="display: flex; justify-content: center; gap: var(--space-sm); margin-top: var(--space-3xl);">
+                <a href="#" class="btn btn-secondary btn-sm" style="min-width: 44px;"><i
+                        class="fas fa-chevron-left"></i></a>
+                <a href="#" class="btn btn-primary btn-sm" style="min-width: 44px;">1</a>
+                <a href="#" class="btn btn-secondary btn-sm" style="min-width: 44px;">2</a>
+                <a href="#" class="btn btn-secondary btn-sm" style="min-width: 44px;">3</a>
+                <a href="#" class="btn btn-secondary btn-sm" style="min-width: 44px;"><i
+                        class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section" style="background: var(--dark-800);">
+        <div class="container">
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Get the latest digital insights, tips, and industry updates delivered to your inbox.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" class="form-input" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer" id="footer" style="position: relative; overflow: hidden;">
+        <!-- Background Branding -->
+        <div class="footer-bg-name" style="position: absolute; bottom: -20px; left: 0; width: 100%; font-size: 15vw; font-weight: 900; color: rgba(255,255,255,0.02); white-space: nowrap; pointer-events: none; text-transform: uppercase; line-height: 1; font-family: 'Outfit', sans-serif;">
+            DataSphere Digital Solutions
+        </div>
+        
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="DataSphere Logo" class="logo-img">
+                        <span style="font-family: 'Outfit', sans-serif; font-weight: 800; color: #0a0e17; font-size: 1.1rem; letter-spacing: -0.02em;">DataSphere <span style="font-weight: 400; color: #4b5563;">Digital Solutions</span></span>
+                    </a>
+                    <p>Empowering businesses with innovative digital solutions. Your trusted partner for digital
+                        transformation in Tanzania.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Client Portal</a></li>
+                        <li><a href="staff-login.php">Staff Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#it-consultation">IT Consultation</a></li>
+                        <li><a href="services.html#design-branding">Design & Branding</a></li>
+                        <li><a href="services.html#web-development">Web & Systems</a></li>
+                        <li><a href="services.html#data-insights">Data Services</a></li>
+                        <li><a href="services.html#ai-studio">AI Studio Services</a></li>
+                        <li><a href="services.html#social-media">Social Media Strategy</a></li>
+                        <li><a href="services.html#remote-collaboration">Remote Work</a></li>
+                        <li><a href="services.html#digital-products">Digital Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 8px; color: var(--primary-blue);"></i>
+                            <a href="https://www.google.com/maps/search/DataSphere+Digital+Solutions+Arusha" target="_blank" style="color: inherit; text-decoration: none;">Arusha, Tanzania</a></li>
+                        <li><a href="tel:+255693038737"><i class="fas fa-phone"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i> +255 693 038 737</a>
+                        </li>
+                        <li><a href="mailto:datasphereds@gmail.com"><i class="fas fa-envelope"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i>
+                                 datasphereds@gmail.com</a></li>
+                        <li><a href="https://www.dataspheredns.com"><i class="fas fa-globe"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i>
+                                 www.dataspheredns.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DataSphere Digital Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/255693038737" class="whatsapp-btn" target="_blank" rel="noopener"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+

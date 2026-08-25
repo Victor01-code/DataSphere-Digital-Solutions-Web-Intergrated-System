@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DataSphere Digital Solutions - A remote-first creative tech company based in Arusha, Tanzania. To become Africa's leading digital consultancy for scalable, human-centered innovation.">
+    <meta name="keywords"
+        content="about DataSphere, digital agency Tanzania, tech company Arusha, digital transformation team">
+
+    <title>About Us | DataSphere Digital Solutions</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="DataSphere Logo" class="logo-img">
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="login.html" class="btn btn-secondary btn-sm">
+                    <i class="fas fa-user"></i> Client Portal
+                </a>
+                <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+            </div>
+
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>About Us</span>
+            </div>
+            <h1>About DataSphere</h1>
+            <p>A remote-first creative tech company specializing in IT consultation that empowers smart, scalable
+                digital decisions.</p>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="section">
+        <div class="container">
+            <div class="mission-vision-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To empower brands and communities through emotionally resonant, technically precise digital
+                        systems
+                        that scale across platforms and borders.</p>
+                </div>
+
+                <div class="mission-card vision">
+                    <div class="mission-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>"To become Africa's leading digital consultancy for scalable, human-centered innovation."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section" style="background: var(--dark-800);">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <span class="label">Our Story</span>
+                    <h2>Remote-First, Strategy-Driven</h2>
+                    <p class="lead">DataSphere Digital Solutions is a remote-first creative tech company based in
+                        Arusha, Tanzania.
+                        We specialize in IT consultation that empowers individuals, startups, organizations, and
+                        enterprises
+                        to make smart, scalable digital decisions.</p>
+                    <p>Every service we offer—from branding to dashboards—is rooted in strategic guidance, ensuring
+                        clarity,
+                        confidence, and impact. Our consultation process is the foundation of everything we do. We help
+                        clients
+                        define their digital strategy, choose the right tools, and build systems that grow with them.
+                    </p>
+                    <p>Whether you're launching a new business, scaling operations, or upgrading your tech stack—we
+                        start with
+                        understanding your goals and build from there. Today, we proudly serve clients globally while
+                        remaining
+                        deeply connected to our East African roots.</p>
+
+                    <div class="story-stats">
+                        <div class="story-stat">
+                            <span class="number">50+</span>
+                            <span class="label">Happy Clients</span>
+                        </div>
+                        <div class="story-stat">
+                            <span class="number">120+</span>
+                            <span class="label">Projects Delivered</span>
+                        </div>
+                        <div class="story-stat">
+                            <span class="number">5+</span>
+                            <span class="label">Years Experience</span>
+                        </div>
+                        <div class="story-stat">
+                            <span class="number">15+</span>
+                            <span class="label">Team Members</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-visual">
+                    <div class="story-image-wrapper">
+                        <div class="story-image"
+                            style="background: url('assets/images/tech_team.png') center/cover no-repeat; min-height: 500px; border-radius: var(--radius-2xl); position: relative; overflow: hidden;">
+                            <div
+                                style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(10, 14, 23, 0.9), rgba(10, 14, 23, 0.2));">
+                            </div>
+                            <div
+                                style="text-align: center; color: white; position: absolute; bottom: 2rem; width: 100%;">
+                                <i class="fas fa-rocket"
+                                    style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent-cyan);"></i>
+                                <h3 style="font-size: 1.5rem;">Innovation Hub</h3>
+                                <p style="color: var(--gray-300);">Arusha, Tanzania</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Our Values</span>
+                <h2>What Drives Us Forward</h2>
+                <p>These core values shape everything we do and guide our commitment to excellence.</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h4>Strategy-First</h4>
+                    <p>Every service begins with consultation. We understand before we build.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Inclusive</h4>
+                    <p>We work with individuals, startups, educators, NGOs, and enterprises alike.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h4>Business-Focused</h4>
+                    <p>We understand entrepreneurs and build systems that support growth.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h4>Modular & Multilingual</h4>
+                    <p>Platforms that adapt to diverse audiences across borders.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>Emotionally Resonant</h4>
+                    <p>Design assets that connect, convert, and inspire your audience.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h4>Remote-Ready</h4>
+                    <p>Collaboration without borders, powered by AI-enhanced creativity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section" style="background: var(--dark-800); position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Our Talent</span>
+                <h2>Meet the Experts</h2>
+                <p>A dedicated team of professionals passionate about digital innovation and client success.</p>
+            </div>
+
+            <div class="team-grid-modern">
+                <!-- John Kimaro -->
+                <div class="team-card-premium">
+                    <div class="team-card-inner">
+                        <div class="team-image-box">
+                            <div class="team-avatar-premium">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="team-glow-bg"></div>
+                        </div>
+                        <div class="team-info-premium">
+                            <span class="team-badge">Founder</span>
+                            <h4>John Kimaro</h4>
+                            <p>Strategic Visionary & CEO</p>
+                            <div class="team-social-premium">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grace Mwakalinga -->
+                <div class="team-card-premium">
+                    <div class="team-card-inner">
+                        <div class="team-image-box">
+                            <div class="team-avatar-premium">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="team-glow-bg"></div>
+                        </div>
+                        <div class="team-info-premium">
+                            <span class="team-badge">Creative</span>
+                            <h4>Grace Mwakalinga</h4>
+                            <p>Creative Director</p>
+                            <div class="team-social-premium">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Michael Obwoge -->
+                <div class="team-card-premium">
+                    <div class="team-card-inner">
+                        <div class="team-image-box">
+                            <div class="team-avatar-premium">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="team-glow-bg"></div>
+                        </div>
+                        <div class="team-info-premium">
+                            <span class="team-badge">Tech Lead</span>
+                            <h4>Michael Obwoge</h4>
+                            <p>Lead Systems Architect</p>
+                            <div class="team-social-premium">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fatma Hassan -->
+                <div class="team-card-premium">
+                    <div class="team-card-inner">
+                        <div class="team-image-box">
+                            <div class="team-avatar-premium">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="team-glow-bg"></div>
+                        </div>
+                        <div class="team-info-premium">
+                            <span class="team-badge">Operations</span>
+                            <h4>Fatma Hassan</h4>
+                            <p>Senior Project Manager</p>
+                            <div class="team-social-premium">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Contact"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .team-grid-modern {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-xl);
+            margin-top: var(--space-2xl);
+        }
+
+        .team-card-premium {
+            perspective: 1000px;
+        }
+
+        .team-card-inner {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius-2xl);
+            padding: var(--space-xl);
+            text-align: center;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-card-premium:hover .team-card-inner {
+            transform: translateY(-15px);
+            border-color: rgba(0, 102, 255, 0.3);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        .team-image-box {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto var(--space-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+        }
+
+        .team-avatar-premium {
+            width: 100px;
+            height: 100px;
+            background: var(--dark-700);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: var(--primary-blue-light);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            z-index: 3;
+        }
+
+        .team-glow-bg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 130px;
+            height: 130px;
+            background: var(--gradient-glow);
+            border-radius: 50%;
+            opacity: 0.15;
+            z-index: 1;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .team-card-premium:hover .team-glow-bg {
+            opacity: 0.4;
+            transform: translate(-50%, -50%) scale(1.2);
+        }
+
+        .team-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(0, 102, 255, 0.1);
+            color: var(--primary-blue-light);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: var(--space-md);
+        }
+
+        .team-info-premium h4 {
+            font-size: 1.25rem;
+            margin-bottom: 4px;
+            color: var(--white);
+        }
+
+        .team-info-premium p {
+            color: var(--gray-400);
+            font-size: 0.9rem;
+            margin-bottom: var(--space-lg);
+        }
+
+        .team-social-premium {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-md);
+        }
+
+        .team-social-premium a {
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-300);
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .team-social-premium a:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+
+        @media (max-width: 1024px) {
+            .team-grid-modern {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .team-grid-modern {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- Why Choose Us Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Why Choose Us</span>
+                <h2>What Makes DataSphere Different</h2>
+                <p>Here's why businesses globally choose us as their digital consultancy partner.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Strategy-First</h4>
+                        <p>Every service begins with consultation. We understand your goals before we build.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Inclusive</h4>
+                        <p>We work with individuals, startups, educators, NGOs, and enterprises alike.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Business-Focused</h4>
+                        <p>We understand entrepreneurs and build systems that support growth.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Modular & Multilingual</h4>
+                        <p>Platforms that adapt to diverse audiences across different regions and languages.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Emotionally Resonant Design</h4>
+                        <p>Assets that connect, convert, and inspire your target audience.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Remote-Ready & AI-Enhanced</h4>
+                        <p>Collaboration without borders. Studio services that deliver professional visuals—virtually.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Digital Journey?</h2>
+                <p>Let's discuss how DataSphere can help transform your business. Get in touch today!</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-envelope"></i> Contact Us
+                    </a>
+                    <a href="services.html" class="btn btn-secondary btn-lg">
+                        View Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer" id="footer" style="position: relative; overflow: hidden;">
+        <!-- Background Branding -->
+        <div class="footer-bg-name" style="position: absolute; bottom: -20px; left: 0; width: 100%; font-size: 15vw; font-weight: 900; color: rgba(255,255,255,0.02); white-space: nowrap; pointer-events: none; text-transform: uppercase; line-height: 1; font-family: 'Outfit', sans-serif;">
+            DataSphere Digital Solutions
+        </div>
+        
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="DataSphere Logo" class="logo-img">
+                        <span style="font-family: 'Outfit', sans-serif; font-weight: 800; color: #0a0e17; font-size: 1.1rem; letter-spacing: -0.02em;">DataSphere <span style="font-weight: 400; color: #4b5563;">Digital Solutions</span></span>
+                    </a>
+                    <p>Empowering businesses with innovative digital solutions. Your trusted partner for digital
+                        transformation in Tanzania.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Client Portal</a></li>
+                        <li><a href="staff-login.php">Staff Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#it-consultation">IT Consultation</a></li>
+                        <li><a href="services.html#design-branding">Design & Branding</a></li>
+                        <li><a href="services.html#web-development">Web & Systems</a></li>
+                        <li><a href="services.html#data-insights">Data Services</a></li>
+                        <li><a href="services.html#ai-studio">AI Studio Services</a></li>
+                        <li><a href="services.html#social-media">Social Media Strategy</a></li>
+                        <li><a href="services.html#remote-collaboration">Remote Work</a></li>
+                        <li><a href="services.html#digital-products">Digital Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 8px; color: var(--primary-blue);"></i>
+                            <a href="https://www.google.com/maps/search/DataSphere+Digital+Solutions+Arusha" target="_blank" style="color: inherit; text-decoration: none;">Arusha, Tanzania</a></li>
+                        <li><a href="tel:+255693038737"><i class="fas fa-phone"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i> +255 693 038 737</a>
+                        </li>
+                        <li><a href="mailto:datasphereds@gmail.com"><i class="fas fa-envelope"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i>
+                                 datasphereds@gmail.com</a></li>
+                        <li><a href="https://www.dataspheredns.com"><i class="fas fa-globe"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i>
+                                 www.dataspheredns.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DataSphere Digital Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/255693038737" class="whatsapp-btn" target="_blank" rel="noopener"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

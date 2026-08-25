@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | DataSphere Digital Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <!-- Navigation (Simplified) -->
+    <nav class="main-nav" style="background: rgba(10, 10, 15, 0.9); backdrop-filter: blur(10px);">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: var(--space-md) 0;">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="brand-name">DataSphere</span>
+                </div>
+            </a>
+            <a href="index.html" class="btn btn-secondary btn-sm">Back to Home</a>
+        </div>
+    </nav>
+
+    <header class="page-header" style="padding: 120px 0 60px; background: var(--dark-800); text-align: center;">
+        <div class="container">
+            <h1 class="gradient-text">Terms of Service</h1>
+            <p style="color: var(--gray-400); max-width: 700px; margin: var(--space-md) auto;">Please read these terms carefully before using our services.</p>
+        </div>
+    </header>
+
+    <main class="legal-content" style="padding: 80px 0; background: var(--dark-900);">
+        <div class="container" style="max-width: 900px; line-height: 1.8; color: var(--gray-300);">
+            <div class="dashboard-card" style="padding: var(--space-2xl);">
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-file-contract" style="color: var(--accent-pink);"></i> 1. Acceptance of Terms
+                    </h2>
+                    <p>By accessing or using the services provided by DataSphere Digital Solutions, you agree to be bound by these Terms of Service. If you do not agree to all of these terms, do not use our services or website.</p>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-tools" style="color: var(--accent-pink);"></i> 2. Services Description
+                    </h2>
+                    <p>DataSphere provides various digital solutions, including but not limited to Web Development, Software Engineering, Digital Marketing, and IT Consulting. Specific project terms, deliverables, and timelines will be outlined in separate Service Level Agreements (SLAs) or Project Proposals.</p>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-wallet" style="color: var(--accent-pink);"></i> 3. Payments & Fees
+                    </h2>
+                    <p>Fees for our services are quoted in Tanzanian Shillings (TZS) unless otherwise specified. Payment schedules are typically milestone-based. Invoices must be paid within the timeframe specified on the invoice. Late payments may result in service suspension.</p>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-copyright" style="color: var(--accent-pink);"></i> 4. Intellectual Property
+                    </h2>
+                    <p>Unless otherwise agreed in writing, DataSphere retains all intellectual property rights to the source code, designs, and methodologies used. Upon full payment, clients are granted a non-exclusive license to use the final deliverables for their intended business purpose.</p>
+                </section>
+
+                <section style="margin-bottom: var(--space-2xl);">
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-ban" style="color: var(--accent-pink);"></i> 5. Limitation of Liability
+                    </h2>
+                    <p>DataSphere shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of our services.</p>
+                </section>
+
+                <section>
+                    <h2 style="color: white; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-gavel" style="color: var(--accent-pink);"></i> 6. Governing Law
+                    </h2>
+                    <p>These Terms shall be governed and construed in accordance with the laws of the United Republic of Tanzania, without regard to its conflict of law provisions.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Simplified) -->
+    <footer style="padding: 40px 0; background: var(--dark-800); border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+        <p style="color: var(--gray-500); font-size: 0.875rem;">&copy; 2026 DataSphere Digital Solutions. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

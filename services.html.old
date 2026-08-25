@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore DataSphere's comprehensive digital services - IT Consultation, Web Development, Branding, AI Solutions, Data Analytics, and more.">
+    <meta name="keywords"
+        content="web development Tanzania, IT consultation Arusha, branding services, AI solutions, digital marketing East Africa">
+
+    <title>Our Services | DataSphere Digital Solutions</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="DataSphere Logo" class="logo-img">
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="login.html" class="btn btn-secondary btn-sm">
+                    <i class="fas fa-user"></i> Client Portal
+                </a>
+                <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+            </div>
+
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Services</span>
+            </div>
+            <h1>Our Services</h1>
+            <p>Strategy-first digital solutions. Every service begins with consultation and flows from a guided
+                strategy.</p>
+        </div>
+    </section>
+
+    <!-- IT Consultation -->
+    <section class="service-detail" id="it-consultation">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label core-label">Core Service</span>
+                    <h2>IT Consultation</h2>
+                    <p>Our consultation process is the foundation of everything we do. We help clients define their
+                        digital strategy,
+                        choose the right tools, and build systems that grow with them. Whether you're launching a new
+                        business,
+                        scaling operations, or upgrading your tech stack—we start with understanding your goals.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Digital Transformation Strategy</li>
+                        <li><i class="fas fa-check"></i> Tech Stack Selection</li>
+                        <li><i class="fas fa-check"></i> Infrastructure Planning & Cloud Migration</li>
+                        <li><i class="fas fa-check"></i> Cybersecurity & Data Protection</li>
+                        <li><i class="fas fa-check"></i> Remote Work Systems</li>
+                        <li><i class="fas fa-check"></i> Platform Audits & Optimization</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Individual Strategy Session (1hr)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">50,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Business Digital Audit</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">500,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Enterprise Roadmap</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">1,500,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Start Your Consultation <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service1.png" alt="Service">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design & Branding -->
+    <section class="service-detail" id="design-branding">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Visual Identity</span>
+                    <h2>Design & Branding</h2>
+                    <p>Visual identities crafted to match your business goals and digital platforms.
+                        Emotionally resonant design that connects, converts, and inspires your audience.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Logo Design & Brand Identity</li>
+                        <li><i class="fas fa-check"></i> Brand Strategy & Guidelines</li>
+                        <li><i class="fas fa-check"></i> Marketing Collateral Design</li>
+                        <li><i class="fas fa-check"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check"></i> Print & Packaging Design</li>
+                        <li><i class="fas fa-check"></i> Motion Graphics & Animation</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Basic Branding (Logo + Palette)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">300,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Corporate Identity (Full Brand Book)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">800,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">UI/UX Interface Design</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">600,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Start Your Brand <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service2.png" alt="Service">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web & App Development -->
+    <section class="service-detail" id="web-development">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Programming & Systems</span>
+                    <h2>Programming & Systems</h2>
+                    <p>Modular, multilingual platforms built based on your operational needs.
+                        Scalable solutions that adapt to diverse audiences across borders.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Custom Website Development</li>
+                        <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                        <li><i class="fas fa-check"></i> Mobile App Development (iOS & Android)</li>
+                        <li><i class="fas fa-check"></i> Progressive Web Apps (PWA)</li>
+                        <li><i class="fas fa-check"></i> Content Management Systems</li>
+                        <li><i class="fas fa-check"></i> API Development & Integration</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Professional Business Platform</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">1,500,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Mobile App (Android MVP)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">1,500,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Cross-Platform (iOS & Android)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">3,500,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Build Your System <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service3.png" alt="Service">
+                    <i class="fas fa-globe"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data & Insights -->
+    <section class="service-detail" id="data-insights">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Data Services</span>
+                    <h2>Data Services</h2>
+                    <p>Dashboards and reports designed to support your decision-making process.
+                        Transform raw data into actionable insights that drive smarter business decisions.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Business Intelligence Dashboards</li>
+                        <li><i class="fas fa-check"></i> Data Analytics & Reporting</li>
+                        <li><i class="fas fa-check"></i> Customer Insights & Segmentation</li>
+                        <li><i class="fas fa-check"></i> Performance Tracking & KPIs</li>
+                        <li><i class="fas fa-check"></i> Data Visualization</li>
+                        <li><i class="fas fa-check"></i> Predictive Analytics</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Data Recovery (Price per MB)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">150 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">BI Dashboard & Reporting</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">800,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Technical Data Analysis</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">600,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Unlock Your Data <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service4.png" alt="Service">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monitoring & Evaluation (M&E) -->
+    <section class="service-detail" id="me-services" style="background: var(--dark-800);">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Project Impact</span>
+                    <h2>M&E Services</h2>
+                    <p>Professional Monitoring and Evaluation for NGOs and development projects. We build the frameworks and tools you need to track impact and ensure project success.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Project Evaluation & Impact Assessment</li>
+                        <li><i class="fas fa-check"></i> M&E Framework & Tool Development</li>
+                        <li><i class="fas fa-check"></i> Baseline & Endline Survey Management</li>
+                        <li><i class="fas fa-check"></i> Data-Driven Reporting for Donors</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Project Evaluation</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">1,500,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">M&E Framework Dev</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">800,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Measure Your Impact <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service4.png" alt="Service">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Studio -->
+    <section class="service-detail" id="ai-studio">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">AI-Enhanced Creativity</span>
+                    <h2>AI Studio Services</h2>
+                    <p>Remote photo and audio & video creation powered by AI—tailored to your brand and campaign goals.
+                        Professional visuals delivered virtually, anywhere in the world.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> AI-Powered Photo Creation</li>
+                        <li><i class="fas fa-check"></i> Audio & Video Production</li>
+                        <li><i class="fas fa-check"></i> Brand-Tailored Visual Content</li>
+                        <li><i class="fas fa-check"></i> Campaign Asset Generation</li>
+                        <li><i class="fas fa-check"></i> AI Chatbots & Virtual Assistants</li>
+                        <li><i class="fas fa-check"></i> Process Automation (RPA)</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">AI Brand Visual Assets (10 Assets)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">400,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">AI Video Campaign Production</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">1,000,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Explore AI Studio <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service5.png" alt="Service">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media & Content -->
+    <section class="service-detail" id="social-media">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Digital Marketing</span>
+                    <h2>Social Media Strategy</h2>
+                    <p>Messaging and engagement plans aligned with your brand's voice and audience.
+                        Compelling content that builds brand awareness and drives conversions.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Social Media Management</li>
+                        <li><i class="fas fa-check"></i> Content Creation & Strategy</li>
+                        <li><i class="fas fa-check"></i> Influencer Marketing</li>
+                        <li><i class="fas fa-check"></i> Paid Advertising Campaigns</li>
+                        <li><i class="fas fa-check"></i> Email Marketing</li>
+                        <li><i class="fas fa-check"></i> Community Management</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Monthly Social Media (Bronze)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">400,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Full Ad Campaign Management</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">800,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Boost Your Presence <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service6.png" alt="Service">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Remote Collaboration -->
+    <section class="service-detail" id="remote-collaboration">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Remote-Ready</span>
+                    <h2>Remote Collaboration</h2>
+                    <p>Systems and workflows that keep your team aligned across borders.
+                        Collaboration without boundaries, designed for the modern distributed workforce.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Remote Work Systems Setup</li>
+                        <li><i class="fas fa-check"></i> Team Collaboration Tools</li>
+                        <li><i class="fas fa-check"></i> Workflow Automation</li>
+                        <li><i class="fas fa-check"></i> Virtual Project Management</li>
+                        <li><i class="fas fa-check"></i> Communication Platforms</li>
+                        <li><i class="fas fa-check"></i> Cloud Workspace Solutions</li>
+                    </ul>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Enable Remote Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service7.png" alt="Service">
+                    <i class="fas fa-users-cog"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Products -->
+    <section class="service-detail" id="digital-products">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Extend Your Reach</span>
+                    <h2>Digital Products</h2>
+                    <p>Templates, e-books, and branded assets created to extend your reach.
+                        Scalable digital products that work for your business 24/7.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Digital Templates & Assets</li>
+                        <li><i class="fas fa-check"></i> E-books & Guides</li>
+                        <li><i class="fas fa-check"></i> Branded Marketing Materials</li>
+                        <li><i class="fas fa-check"></i> Online Course Materials</li>
+                        <li><i class="fas fa-check"></i> Presentation Templates</li>
+                        <li><i class="fas fa-check"></i> Social Media Kits</li>
+                    </ul>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Create Digital Products <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service8.png" alt="Service">
+                    <i class="fas fa-box-open"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketing Materials & Print -->
+    <section class="service-detail" id="marketing-materials">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content">
+                    <span class="label">Creative Production</span>
+                    <h2>Marketing Materials & Print</h2>
+                    <p>High-impact physical and digital collateral. From billboards to business cards, we design the visuals that make your brand tangible. Note: Printing costs are quoted separately based on production needs.</p>
+
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Event & Educational Posters</li>
+                        <li><i class="fas fa-check"></i> Billboard & Large Format Design</li>
+                        <li><i class="fas fa-check"></i> Corporate Company Profiles</li>
+                        <li><i class="fas fa-check"></i> Double-Sided Business Cards</li>
+                        <li><i class="fas fa-check"></i> Digital Media & Social Packs</li>
+                    </ul>
+
+                    <div class="package-tiers" style="margin: var(--space-lg) 0; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Event Poster Design</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">30,000 TZS</span>
+                        </div>
+                        <div style="background: rgba(0, 102, 255, 0.05); border: 1px solid rgba(0, 102, 255, 0.1); padding: 12px 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 600;">Company Profile (Full Identity)</span>
+                            <span style="color: var(--primary-blue-light); font-weight: 700;">200,000 TZS</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Start Your Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-visual">
+                    <img src="assets/images/service8.png" alt="Service">
+                    <i class="fas fa-print"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section" style="background: var(--dark-800); position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Our Methodology</span>
+                <h2>The DataSphere Roadmap</h2>
+                <p>Every engagement follows a strategy-first approach to turn your vision into a scalable reality.</p>
+            </div>
+
+            <div class="interactive-process">
+                <div class="process-grid-modern">
+                    <!-- Step 1 -->
+                    <div class="process-step-modern">
+                        <div class="step-indicator">
+                            <span class="step-number">01</span>
+                            <div class="step-glow"></div>
+                        </div>
+                        <div class="step-content-box">
+                            <h4>Consultation</h4>
+                            <p>We dive deep into your goals, business challenges, and long-term vision to build a solid foundation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="process-step-modern">
+                        <div class="step-indicator">
+                            <span class="step-number">02</span>
+                            <div class="step-glow"></div>
+                        </div>
+                        <div class="step-content-box">
+                            <h4>Strategy</h4>
+                            <p>We architect a tailored digital roadmap, selecting the perfect tech stack and tools for your growth.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="process-step-modern">
+                        <div class="step-indicator">
+                            <span class="step-number">03</span>
+                            <div class="step-glow"></div>
+                        </div>
+                        <div class="step-content-box">
+                            <h4>Design</h4>
+                            <p>Our creative studio crafts premium, user-centric interfaces that blend aesthetics with high performance.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="process-step-modern">
+                        <div class="step-indicator">
+                            <span class="step-number">04</span>
+                            <div class="step-glow"></div>
+                        </div>
+                        <div class="step-content-box">
+                            <h4>Development</h4>
+                            <p>Technical execution with modular, scalable code, ensuring your system is built for the long haul.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="process-step-modern">
+                        <div class="step-indicator">
+                            <span class="step-number">05</span>
+                            <div class="step-glow"></div>
+                        </div>
+                        <div class="step-content-box">
+                            <h4>Testing</h4>
+                            <p>Rigorous quality assurance across all devices to ensure a flawless and secure user experience.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="process-step-modern">
+                        <div class="step-indicator">
+                            <span class="step-number">06</span>
+                            <div class="step-glow"></div>
+                        </div>
+                        <div class="step-content-box">
+                            <h4>Launch & Growth</h4>
+                            <p>Deployment and continuous optimization, providing the ongoing support your success deserves.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .interactive-process {
+            position: relative;
+            margin-top: var(--space-2xl);
+            padding-bottom: var(--space-2xl);
+        }
+
+        .process-grid-modern {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-2xl);
+            position: relative;
+            z-index: 2;
+        }
+
+        .process-step-modern {
+            position: relative;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .process-step-modern:hover {
+            transform: translateY(-10px);
+        }
+
+        .step-indicator {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin-bottom: var(--space-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .step-number {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--white);
+            z-index: 2;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .step-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-glow);
+            border-radius: 50%;
+            opacity: 0.15;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .process-step-modern:hover .step-glow {
+            opacity: 0.4;
+            transform: scale(1.2);
+        }
+
+        .step-content-box {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: var(--space-xl);
+            border-radius: var(--radius-xl);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .process-step-modern:hover .step-content-box {
+            border-color: rgba(0, 102, 255, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .step-content-box h4 {
+            font-size: 1.25rem;
+            margin-bottom: var(--space-sm);
+            color: var(--white);
+        }
+
+        .step-content-box p {
+            font-size: 0.95rem;
+            color: var(--gray-400);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 1024px) {
+            .process-grid-modern {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .process-grid-modern {
+                grid-template-columns: 1fr;
+            }
+            .step-indicator {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .step-content-box {
+                text-align: center;
+            }
+        }
+    </style>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about our digital services and how we work with clients.</p>
+            </div>
+
+            <div class="faq-grid" style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How does the consultation process work?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our consultation starts with a discovery session where we learn about your business goals,
+                            challenges, and current tech stack. We then provide a strategy roadmap with recommended
+                            solutions tailored to your needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you work with international clients?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We are a remote-first company and work with clients globally. We use modern
+                            collaboration tools to ensure seamless communication and project delivery regardless of your
+                            location.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can you handle both design and development?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We provide end-to-end digital solutions, from initial brand strategy and UI/UX
+                            design to full-scale programming and system implementation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How long does a typical project take?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity. A brand identity might take 2-4 weeks, while a
+                            complex web system might take 8-12 weeks. We provide detailed timelines during the strategy
+                            phase.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is AI Studio and how does it work?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AI Studio is our virtual production service. We use advanced AI tools to create high-quality
+                            brand visuals, photos, and videos without the need for physical shoots, saving time and
+                            costs while maintaining premium quality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Testimonials</span>
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it. Here's what our valued clients have to say about working with us.
+                </p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">
+                                "DataSphere transformed our entire digital presence. Their team delivered a stunning
+                                website
+                                and helped us implement systems that have significantly improved our operations. Highly
+                                recommended!"
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">JM</div>
+                                <div class="testimonial-info">
+                                    <h4>James Mwanga</h4>
+                                    <p>CEO, TechStart Tanzania</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">
+                                "The branding work DataSphere did for our NGO was exceptional. They understood our
+                                mission
+                                and created a visual identity that perfectly represents who we are. Professional and
+                                creative!"
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">SK</div>
+                                <div class="testimonial-info">
+                                    <h4>Sarah Kimaro</h4>
+                                    <p>Director, Hope Foundation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">
+                                "Working with DataSphere on our mobile app was a game-changer. They delivered on time,
+                                within budget, and the app exceeded our expectations. Our customers love it!"
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">PM</div>
+                                <div class="testimonial-info">
+                                    <h4>Peter Massawe</h4>
+                                    <p>Founder, QuickServe Ltd</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest insights, tips, and digital trends in East Africa and
+                    beyond.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" class="form-input" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Let's discuss your project and find the perfect solution for your business.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-paper-plane"></i> Request a Quote
+                    </a>
+                    <a href="tel:+255693038737" class="btn btn-secondary btn-lg">
+                        <i class="fas fa-phone"></i> Call Us Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer" id="footer" style="position: relative; overflow: hidden;">
+        <!-- Background Branding -->
+        <div class="footer-bg-name" style="position: absolute; bottom: -20px; left: 0; width: 100%; font-size: 15vw; font-weight: 900; color: rgba(255,255,255,0.02); white-space: nowrap; pointer-events: none; text-transform: uppercase; line-height: 1; font-family: 'Outfit', sans-serif;">
+            DataSphere Digital Solutions
+        </div>
+        
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="DataSphere Logo" class="logo-img">
+                        <span style="font-family: 'Outfit', sans-serif; font-weight: 800; color: #0a0e17; font-size: 1.1rem; letter-spacing: -0.02em;">DataSphere <span style="font-weight: 400; color: #4b5563;">Digital Solutions</span></span>
+                    </a>
+                    <p>Empowering businesses with innovative digital solutions. Your trusted partner for digital
+                        transformation in Tanzania.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Client Portal</a></li>
+                        <li><a href="staff-login.php">Staff Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#it-consultation">IT Consultation</a></li>
+                        <li><a href="services.html#design-branding">Design & Branding</a></li>
+                        <li><a href="services.html#web-development">Web & Systems</a></li>
+                        <li><a href="services.html#data-insights">Data Services</a></li>
+                        <li><a href="services.html#ai-studio">AI Studio Services</a></li>
+                        <li><a href="services.html#social-media">Social Media Strategy</a></li>
+                        <li><a href="services.html#remote-collaboration">Remote Work</a></li>
+                        <li><a href="services.html#digital-products">Digital Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 8px; color: var(--primary-blue);"></i>
+                            <a href="https://www.google.com/maps/search/DataSphere+Digital+Solutions+Arusha" target="_blank" style="color: inherit; text-decoration: none;">Arusha, Tanzania</a></li>
+                        <li><a href="tel:+255693038737"><i class="fas fa-phone"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i> +255 693 038 737</a>
+                        </li>
+                        <li><a href="mailto:datasphereds@gmail.com"><i class="fas fa-envelope"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i>
+                                 datasphereds@gmail.com</a></li>
+                        <li><a href="https://www.dataspheredns.com"><i class="fas fa-globe"
+                                     style="margin-right: 8px; color: var(--primary-blue);"></i>
+                                 www.dataspheredns.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DataSphere Digital Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/255693038737" class="whatsapp-btn" target="_blank" rel="noopener"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+
+    <style>
+        @media (max-width: 1024px) {
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+
+</html>
